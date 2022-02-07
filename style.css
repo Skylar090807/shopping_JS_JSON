@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; //viewport, window의 높이 100%
+}
+
+.btns {
+  display: flex;
+  align-itmes: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: transform 200ns ease-in-out;
+  margin-right: 10px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.imgBtn {
+  width: 60px;
+  height: 60px;
+}
+
+.colorBtn {
+  font-size: 18px;
+  font-weight: 500;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 14px;
+}
+
+.btn_blue {
+  background-color: lightblue;
+}
+
+.btn_yellow {
+  background-color: lightyellow;
+}
+
+.btn_pink {
+  background-color: lightpink;
+}
+
+.items {
+  width: 40%;
+  height: 60%;
+  overflow-y: scroll;
+}
+
+.item {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.item__info {
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.item__image {
+  width: 50px;
+  height: 40px;
+}

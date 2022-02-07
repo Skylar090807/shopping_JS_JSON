@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <button class="logo"><img src="./img/logo.png" alt="logo" /></button>
+    </header>
+    <nav class="btns">
+      <!-- data-key="" data-value="" 를 이용해 data를 정의할 수 있다.-->
+      <button class="button_shirt">
+        <img src="./img/blue_t.png" alt="blue t-shirt" class="imgBtn" data-key="type" data-value="tshirt" />
+      </button>
+      <button class="button_pants">
+        <img src="./img/blue_p.png" alt="blue pants" class="imgBtn" data-key="type" data-value="pants" />
+      </button>
+      <button class="button_skirt">
+        <img src="./img/blue_s.png" alt="blue skirt" class="imgBtn" data-key="type" data-value="skirt" />
+      </button>
+      <button class="colorBtn btn_blue" data-key="color" data-value="blue">Blue</button>
+      <button class="colorBtn btn_yellow" data-key="color" data-value="yellow">Yellow</button>
+      <button class="colorBtn btn_pink" data-key="color" data-value="pink">Pink</button>
+    </nav>
+    <div class="items"></div>
+  </body>
+</html>
